@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kvasarnomad/Dev/crypt/des64b/des.c
+inttypes.h
+-
+des.h
+/home/kvasarnomad/Dev/crypt/des64b/des.h
+
+/home/kvasarnomad/Dev/crypt/des64b/des.h
+stdint.h
+-
+
